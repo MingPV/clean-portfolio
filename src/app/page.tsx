@@ -28,7 +28,7 @@ export default function Home() {
             {"hi there! I'm Ming."}
           </div>
           <div className="flex flex-row md:mt-32 mb-12 justify-between items-center">
-            <div className="flex flex-col justify-center h-full w-1/2">
+            <div className="flex flex-col justify-center h-full w-1/2 md:w-3/5">
               <div className="hidden md:block text-6xl dark:text-white font-rollingStone">
                 {"hi there! I'm Ming."}
               </div>
