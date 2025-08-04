@@ -6,7 +6,6 @@ import { RxMoon } from "react-icons/rx";
 import { IoMenuOutline } from "react-icons/io5";
 import { IoMdHome } from "react-icons/io";
 import { FaFireAlt } from "react-icons/fa";
-import { BiSolidTreeAlt } from "react-icons/bi";
 import { IoIosContact } from "react-icons/io";
 
 interface NavbarProps {
