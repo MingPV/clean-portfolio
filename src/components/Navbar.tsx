@@ -71,7 +71,7 @@ export default function Navbar({
   return (
     <nav
       className={`
-        fixed top-0 left-0 w-full z-50 transition-colors duration-300  bg-base-100/70 dark:bg-base-400/50 md:bg-white/50 md:dark:bg-base-500/50 backdrop-blur-sm 
+        fixed top-0 left-0 w-full z-50 bg-base-100/70 dark:bg-base-400/50 md:bg-white/50 md:dark:bg-base-500/50 backdrop-blur-sm 
         ${
           scrolled
             ? ""
@@ -154,19 +154,30 @@ export default function Navbar({
           isMenuOpen ? "max-h-72" : "max-h-0"
         } ease-in-out duration-300 transition-all overflow-hidden md:hidden flex flex-col gap-4 w-full`}
       >
-        <div className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer">
+        <div
+          className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer"
+          onClick={() => {
+            scrollToSection(homeRef);
+          }}
+        >
           <IoMdHome />
           Home
         </div>
-        <div className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer">
+        <div
+          className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer"
+          onClick={() => {
+            scrollToSection(projectRef);
+          }}
+        >
           <FaFireAlt />
           Projects
         </div>
-        <div className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer">
-          <BiSolidTreeAlt />
-          Experiences
-        </div>
-        <div className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer">
+        <div
+          className="flex flex-row items-center gap-2 py-2 w-full text-base-500 dark:text-base-100 hover:bg-black/10 dark:hover:bg-white/10 cursor-pointer"
+          onClick={() => {
+            scrollToSection(contactRef);
+          }}
+        >
           <IoIosContact />
           Contact
         </div>
