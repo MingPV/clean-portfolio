@@ -43,6 +43,45 @@ export default function WorkAndEducation() {
             >
               <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border-1 border-base-400/30">
                 <Image
+                  className="aspect-square h-full w-full bg-background object-contain"
+                  alt="DBS Bank"
+                  src="/mcvIcon.png"
+                  width={48}
+                  height={48}
+                />
+              </span>
+            </a>
+            <div className="flex flex-1 flex-col justify-start gap-1">
+              <time className="text-xs text-muted-foreground text-base-500/80 dark:text-base-100/70">
+                <span>Aug 2025</span>
+                <span> - </span>
+                <span>Current</span>
+              </time>
+              <h2 className="font-semibold leading-none">myCourseVille</h2>
+              <p className="text-sm text-muted-foreground text-base-500/80 dark:text-base-100/70">
+                Fullstack developer (part-time)
+              </p>
+              <ul className="ml-4 list-outside list-disc">
+                <li className="prose pr-8 text-sm dark:prose-invert text-base-500/90 dark:text-base-100">
+                  Developed and maintained fullstack web applications using
+                  Laravel (PHP) and React, focusing on performance, scalability,
+                  and clean architecture.
+                </li>
+                <li className="prose pr-8 text-sm dark:prose-invert text-base-500/90 dark:text-base-100">
+                  Communicated regularly with teammates to align on technical
+                  goals
+                </li>
+              </ul>
+            </div>
+          </li>
+          <li className={`relative ml-10 py-4 ${selectedWork ? "" : "hidden"}`}>
+            <a
+              target="_blank"
+              className="absolute -left-16 top-4 flex items-center justify-center rounded-full bg-white"
+              href="https://www.dbs.com.sg"
+            >
+              <span className="relative flex shrink-0 overflow-hidden rounded-full size-12 border-1 border-base-400/30">
+                <Image
                   className="aspect-square h-full w-full object-contain "
                   alt="DBS Bank"
                   src="/aisIcon.png"
