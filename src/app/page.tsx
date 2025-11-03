@@ -44,14 +44,14 @@ export default function Home() {
               </div>
 
               <div className="flex flex-row gap-2 mt-6 ml-2 items-center animate-pulse">
-                {/* <div className="h-2 w-2 bg-lime-500 rounded-full"></div> */}
-                {/* <div className=" dark:text-white font-bold">
+                <div className="h-2 w-2 bg-lime-500 rounded-full"></div>
+                <div className=" dark:text-white font-bold">
                   {"Available for work"}
-                </div> */}
-                <div className="h-2 w-2 bg-red-500 rounded-full"></div>
+                </div>
+                {/* <div className="h-2 w-2 bg-red-500 rounded-full"></div>
                 <div className=" dark:text-white font-bold">
                   {"Currently unavailable"}
-                </div>
+                </div> */}
               </div>
               <div className="flex flex-row gap-5 items-center mt-6">
                 <a
@@ -90,18 +90,18 @@ export default function Home() {
             </div>
             {/* tablet & desktop */}
             <Image
-              src="/images/mingming.png"
+              src="/images/mingpv1.jpg"
               alt="mingpv"
-              width={230}
-              height={200}
+              width={250}
+              height={300}
               className={`shadow-md rounded-md hidden md:block`}
             />
             {/* mobile */}
             <Image
-              src="/images/mingming.png"
+              src="/images/mingpv1.jpg"
               alt="mingpv"
               width={160}
-              height={200}
+              height={300}
               className={`shadow-md rounded-md md:hidden mb-12`}
             />
           </div>
