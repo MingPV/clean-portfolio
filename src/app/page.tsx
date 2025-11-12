@@ -56,7 +56,7 @@ export default function Home() {
               <div className="flex flex-row gap-5 items-center mt-6">
                 <a
                   className="py-1 px-4 shadow-md border-1 border-base-100 dark:border-base-400 dark:text-white rounded-md  flex items-center gap-3 text-base-500 hover:bg-base-100/50 dark:hover:bg-base-400"
-                  href="/files/resume_mingming.pdf"
+                  href="/files/ming_resume.pdf"
                   download
                 >
                   Resume
