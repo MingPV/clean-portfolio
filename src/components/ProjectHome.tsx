@@ -1,10 +1,30 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Image from "next/image";
 import { IoStar } from "react-icons/io5";
 
 export default function ProjectHome() {
+  const [cleanGoStarCount, setCleanGoStarCount] = useState(18);
+
+  useEffect(() => {
+    const fetchStarCount = async () => {
+      try {
+        const response = await fetch(
+          "https://api.github.com/repos/MingPV/clean-go-template"
+        );
+        const data = await response.json();
+        if (data.stargazers_count) {
+          setCleanGoStarCount(data.stargazers_count);
+        }
+      } catch (error) {
+        console.error("Error fetching star count:", error);
+      }
+    };
+
+    fetchStarCount();
+  }, []);
+
   return (
     <>
       <div className="w-full flex items-center mt-20 mb-8">
@@ -87,7 +107,7 @@ export default function ProjectHome() {
             </div>
             <div className="flex flex-row items-center px-2 py-1 border-[1px] border-black/30 dark:border-base-100 rounded-md gap-1">
               <div className="text-sm font-bold text-base-400 dark:text-base-200">
-                17
+                {cleanGoStarCount}
               </div>
               <IoStar className="text-yellow-400" />
               <div className="text-xs text-black/50 dark:text-base-200">
