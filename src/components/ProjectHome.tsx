@@ -161,6 +161,102 @@ export default function ProjectHome() {
           </div>
         </div>
         <div className="shadow-md shadow-base-400/20 flex flex-col gap-2 items-start border-1 border-base-400/10 dark:border-base-400 rounded-xl pb-4 px-2 pt-2">
+          <div className="w-full flex justify-center">
+            <div className="flex w-3/4 justify-center mt-2 bg-black shadow-xl shadow-base-400/30">
+              <Image
+                src="/images/sds1.jpg"
+                width="250"
+                height="200"
+                className="shadow-lg"
+                alt="ProjectImage"
+              />
+            </div>
+          </div>
+          <div className="ml-4 mt-6 text-base-400 dark:text-base-100 font-semibold">
+            Distributed Microservices Cluster
+          </div>
+          <div className="ml-4 mr-1 text-base-400/70 dark:text-base-100/60 text-start text-sm">
+            {" "}
+            Deployed a microservice system with 4 Raspberry Pi worker nodes and
+            a MacBook VM master node using Terraform, including frontend, API
+            gateway, 5 services, and a message broker, enhancing my skills in{" "}
+            <span className="font-bold text-sky-700 dark:text-sky-500">
+              Kubernetes
+            </span>{" "}
+            and{" "}
+            <span className="font-bold text-sky-700 dark:text-sky-500">
+              cluster management
+            </span>{" "}
+            skills.
+          </div>
+          <div className="ml-4 mr-1 mt-3 flex flex-wrap gap-1">
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              SwiftUI
+            </div>
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              XCode
+            </div>
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              IOS
+            </div>
+          </div>
+          <div className="flex w-full h-full justify-end items-end">
+            <a
+              className="flex flex-row justify-end items-center gap-1 pr-4 py-2 underline underline-offset-4 text-sm font-sans hover:text-base-400/70 dark:hover:text-base-300"
+              href="https://github.com/MingPV/3000Words-App"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+        <div className="shadow-md shadow-base-400/20 flex flex-col gap-2 items-start border-1 border-base-400/10 dark:border-base-400 rounded-xl pb-4 px-2 pt-2">
+          <div className="w-full flex justify-center">
+            <div className="flex w-3/4 justify-center mt-2 bg-black shadow-xl shadow-base-400/30">
+              <Image
+                src="/images/vocab_1.png"
+                width="75"
+                height="200"
+                className="shadow-lg"
+                alt="ProjectImage"
+              />
+            </div>
+          </div>
+          <div className="ml-4 mt-6 text-base-400 dark:text-base-100 font-semibold">
+            3000Words - IOS app
+          </div>
+          <div className="ml-4 mr-1 text-base-400/70 dark:text-base-100/60 text-start text-sm">
+            A simple and lightweight{" "}
+            <span className="font-bold text-sky-700 dark:text-sky-500">
+              iOS
+            </span>{" "}
+            application that displays a curated list of 3000 essential English
+            vocabulary words. Designed with a minimal interface using SwiftUI.
+          </div>
+          <div className="ml-4 mr-1 mt-3 flex flex-wrap gap-1">
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              SwiftUI
+            </div>
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              XCode
+            </div>
+            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
+              IOS
+            </div>
+          </div>
+          <div className="flex w-full h-full justify-end items-end">
+            <a
+              className="flex flex-row justify-end items-center gap-1 pr-4 py-2 underline underline-offset-4 text-sm font-sans hover:text-base-400/70 dark:hover:text-base-300"
+              href="https://github.com/MingPV/3000Words-App"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Learn more
+            </a>
+          </div>
+        </div>
+        <div className="shadow-md shadow-base-400/20 flex flex-col gap-2 items-start border-1 border-base-400/10 dark:border-base-400 rounded-xl pb-4 px-2 pt-2">
           <div className="flex w-full justify-center mt-2">
             <Image
               src="/images/Gameshelf-1.png"
@@ -209,52 +305,6 @@ export default function ProjectHome() {
             <a
               className="flex flex-row justify-end items-center gap-1 pr-4 py-2 underline underline-offset-4 text-sm font-sans hover:text-base-400/70 dark:hover:text-base-300"
               href="https://github.com/MingPV/Game-Shelf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learn more
-            </a>
-          </div>
-        </div>
-
-        <div className="shadow-md shadow-base-400/20 flex flex-col gap-2 items-start border-1 border-base-400/10 dark:border-base-400 rounded-xl pb-4 px-2 pt-2">
-          <div className="w-full flex justify-center">
-            <div className="flex w-3/4 justify-center mt-2 bg-black shadow-xl shadow-base-400/30">
-              <Image
-                src="/images/vocab_1.png"
-                width="75"
-                height="200"
-                className="shadow-lg"
-                alt="ProjectImage"
-              />
-            </div>
-          </div>
-          <div className="ml-4 mt-6 text-base-400 dark:text-base-100 font-semibold">
-            3000Words - IOS app
-          </div>
-          <div className="ml-4 mr-1 text-base-400/70 dark:text-base-100/60 text-start text-sm">
-            A simple and lightweight{" "}
-            <span className="font-bold text-sky-700 dark:text-sky-500">
-              iOS
-            </span>{" "}
-            application that displays a curated list of 3000 essential English
-            vocabulary words. Designed with a minimal interface using SwiftUI.
-          </div>
-          <div className="ml-4 mr-1 mt-3 flex flex-wrap gap-1">
-            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
-              SwiftUI
-            </div>
-            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
-              XCode
-            </div>
-            <div className="inline-flex items-center rounded-md border font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 border-transparent bg-base-200/70 dark:bg-base-400 px-1 py-0 text-[10px]">
-              IOS
-            </div>
-          </div>
-          <div className="flex w-full h-full justify-end items-end">
-            <a
-              className="flex flex-row justify-end items-center gap-1 pr-4 py-2 underline underline-offset-4 text-sm font-sans hover:text-base-400/70 dark:hover:text-base-300"
-              href="https://github.com/MingPV/3000Words-App"
               target="_blank"
               rel="noopener noreferrer"
             >
